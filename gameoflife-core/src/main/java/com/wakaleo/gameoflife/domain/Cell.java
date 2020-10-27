@@ -18,7 +18,7 @@ public enum Cell {
     }
 
 	// Override function for easy printing of cell's symbol
-	// Functions identically to default getter ( getSymbol() )
+	// Functions identically to default getter ( getSymbol() ) ues
     @Override
     public String toString() {
         return symbol;
