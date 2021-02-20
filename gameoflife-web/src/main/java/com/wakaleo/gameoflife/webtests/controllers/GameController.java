@@ -14,7 +14,7 @@ import com.wakaleo.gameoflife.domain.Universe;
  /**
  * Wakaleo Consulting - John Ferguson Smart
  * Game of life, demonstration application for Jenkins: The Definitive Guide
- *
+ * Testing###################
  * GameController.java
  * Controller to navigate the buttons on the game pages
  * new commit on github-testing
@@ -24,6 +24,7 @@ import com.wakaleo.gameoflife.domain.Universe;
 public class GameController {
 	// For generating random thread sleep times
     private Random randomGenerator = new Random();
+	
 
 	// Clicking the "New Game" button on the main page loads the cell seletion page
     @RequestMapping("/new")
